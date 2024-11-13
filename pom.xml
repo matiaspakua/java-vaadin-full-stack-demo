@@ -32,6 +32,12 @@
 		<vaadin.version>24.5.4</vaadin.version>
 	</properties>
 	<dependencies>
+<dependency>
+   <groupId>org.vaadin.addons.manolo</groupId>
+   <artifactId>voice-engine</artifactId>
+   <version>1.0.2</version>
+</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -90,6 +96,10 @@
 		</plugins>
 	</build>
 	<repositories>
+<repository>
+   <id>Vaadin Directory</id>
+   <url>https://maven.vaadin.com/vaadin-addons</url>
+</repository>
 		<repository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
