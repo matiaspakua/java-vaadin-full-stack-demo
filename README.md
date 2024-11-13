@@ -19,4 +19,10 @@ In your favourite java IDE import the project and run/debug the `src/main/java//
 
 ### Screenshots
 
-![Jug-Demo-Ai_x1 1](https://github.com/user-attachments/assets/0ecab707-d21c-4547-905f-9318105597a9)
+Click on play to see it in action
+
+
+
+![Jug-Demo_x1 8](https://github.com/user-attachments/assets/66ab2aff-41e3-4c9a-bff7-2542d8fc5ea7)
+
+
