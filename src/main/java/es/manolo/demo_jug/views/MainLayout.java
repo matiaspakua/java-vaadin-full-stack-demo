@@ -11,6 +11,8 @@ public class MainLayout extends AppLayout {
 
     MainLayout() {
         addToNavbar(new HorizontalLayout(new DrawerToggle(), new H3("Vaadin Demo Jug")));
-        addToDrawer(new VerticalLayout(new RouterLink("Contacts", MasterDetail.class), new RouterLink("AI Chat", AiChatView.class)));
+        addToDrawer(new VerticalLayout( new RouterLink("Contacts", MasterDetail.class),
+                                        new RouterLink("AI Chat", AiChatView.class),
+                                        new RouterLink("Accounts", MasterDetail.class)));
     }
 }
